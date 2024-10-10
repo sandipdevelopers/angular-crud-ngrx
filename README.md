@@ -1,28 +1,30 @@
-# AngularCrudNgrx
+# Angular CRUD Application with NgRx
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.7.
+A robust Angular 18 application implementing CRUD (Create, Read, Update, Delete) operations with state management using NgRx.
 
-## Development server
+## 🚀 Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **CRUD Operations:** Easily create, read, update, and delete data entries.
+- **State Management:** Efficient state handling with NgRx for predictable state transitions.
+- **Search Functionality:** Quickly find records using the search bar at the top.
+- **Responsive Design:** Mobile-friendly and responsive user interface.
+- **TypeScript:** Strongly typed codebase for better maintainability.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🛠️ Technologies Used
 
-## Build
+- [Angular 18](https://angular.io/)
+- [NgRx](https://ngrx.io/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [RxJS](https://rxjs.dev/)
+- [Bootstrap](https://getbootstrap.com/) *(if used)*
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 📋 Prerequisites
 
-## Running unit tests
+Before you begin, ensure you have met the following requirements:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- **Node.js:** Install [Node.js](https://nodejs.org/) (v20).
+- **Angular CLI:** Install Angular CLI globally:
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-# angular-crud-ngrx
+  ```bash
+  npm install -g @angular/cli
